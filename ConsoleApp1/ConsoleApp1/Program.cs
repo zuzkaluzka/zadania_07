@@ -8,6 +8,7 @@ class Program
         tablice.Powitanie();
 
         int[] tab = tablice.StworzTablice();
+        tablice.WyswietlTablice(tab);
 
 
     }

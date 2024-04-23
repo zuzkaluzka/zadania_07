@@ -27,5 +27,13 @@ namespace ConsoleApp1
             Console.WriteLine();
             return tabl;
         }
+        public void WyswietlTablice(int[] tab)
+        {
+            for (int i =0; i < tab.Length; i++)
+            {
+                Console.Write(tab[i]);
+                Console.WriteLine();
+            }
+        }
     }
 }
